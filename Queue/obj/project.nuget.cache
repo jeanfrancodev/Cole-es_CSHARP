@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1OL9cnqf3XqsNrb7VpXXWKZyfXc/TVoxJkaXNwRVRCaGKtX2CtoascBgEZCFKPqENoZ5hX426a/TiYMlJAijPg==",
+  "dgSpecHash": "mO0BYXg63mqkoOW5PgvkP8MUoRKjLFyzbwVAquQL+sBnOZ/+Bu2SpoB8Nmr0SsS48KriAeVtVJ2//HztU/Z36A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeano\\Desktop\\Generation\\Exercicios\\coleçoes\\Queue\\CQueue.csproj",
+  "projectFilePath": "C:\\Users\\jeano\\Desktop\\Generation\\Exercicios\\CollectionsC#\\Queue\\fila.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

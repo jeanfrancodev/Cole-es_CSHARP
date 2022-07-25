@@ -1,51 +1,29 @@
-﻿using System;
-using System.Collections;
+﻿using lista;
+using System;
 using System.Collections.Generic;
 
-namespace Queue
+namespace fila
 {
-    class Program 
+    class Program
     {
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World fila!");
+            Console.WriteLine("Essa é a Fila!");
+            Queue<Palavra> pessoas = new Queue<Palavra>();
+            pessoas.Enqueue(new Palavra("Jean"));
+            pessoas.Enqueue(new Palavra("Isabela"));
+            pessoas.Enqueue(new Palavra("Bruna"));
+            pessoas.Enqueue(new Palavra("Pedro"));
+            pessoas.Enqueue(new Palavra("Vitor"));
 
-            Queue<Pessoa> pessoas = new Queue<Pessoa>();
-            pessoas.Enqueue(new Pessoa("João", "Los Santos", 12));
-            pessoas.Enqueue(new Pessoa("Maria", "São Paulo", 12));
-            pessoas.Enqueue(new Pessoa("Steve", "Ohio", 12));
-
-            Console.WriteLine($"Object primeiro da fila é: {pessoas.Count}");
-
+            Console.WriteLine($"O Primeiro da Fila é: { pessoas.Dequeue()}");
             pessoas.Peek();
+            Console.WriteLine($"O número de pessoas na fila é: {pessoas.Count}");
 
-            Console.WriteLine($"O numero de pessoas na fila é: {pessoas.Count}");   
-
-            foreach(Pessoa pessoa in pessoas)
+            foreach (Palavra pessoa in pessoas)
             {
-                Console.WriteLine(pessoa.ToString());
-            }
-        }
-
-
-        public class Pessoa
-{
-            public string Nome { get; set; }
-            public string Cidade { get; set; }
-            public int Idade { get; set; }
-
-            public Pessoa(String nome, string cidade, int idade)
-            {
-                Nome = nome;
-                Cidade = cidade;
-                Idade = idade;
-            }
-            public override string ToString()
-            {
-                return $"Nome: {Nome} | Cidade: {Cidade} | Idade: {Idade}";
+                Console.WriteLine(pessoa);
             }
         }
     }
 }
-
