@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeano\\Desktop\\Generation\\Exercicios\\coleçoes\\Queue\\CQueue.csproj",
-      "projectName": "CQueue",
-      "projectPath": "C:\\Users\\jeano\\Desktop\\Generation\\Exercicios\\coleçoes\\Queue\\CQueue.csproj",
+      "projectUniqueName": "C:\\Users\\jeano\\Desktop\\Generation\\Exercicios\\coleçoes\\CDictionary\\CDictionary.csproj",
+      "projectName": "CDictionary",
+      "projectPath": "C:\\Users\\jeano\\Desktop\\Generation\\Exercicios\\coleçoes\\CDictionary\\CDictionary.csproj",
       "packagesPath": "C:\\Users\\jeano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeano\\Desktop\\Generation\\Exercicios\\coleçoes\\Queue\\obj\\",
+      "outputPath": "C:\\Users\\jeano\\Desktop\\Generation\\Exercicios\\coleçoes\\CDictionary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
